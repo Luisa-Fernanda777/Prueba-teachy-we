@@ -9,7 +9,7 @@ namespace cadenasConsecutivas
         {
             if (cadenas.Length < r) // Verifica si el tamaño del arreglo es menor que r
             {
-                return "No hay suficientes cadenas para formar una concatenación de longitud r.";
+                return "No hay suficientes cadenas para formar una concatenación de longitud r";
             }
 
             string maxCadena = "";

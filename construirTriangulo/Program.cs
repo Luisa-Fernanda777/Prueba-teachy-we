@@ -1,8 +1,12 @@
-﻿public class Triangulo
+﻿using System;
+
+namespace construirTriangulo
 {
-    public static bool PuedeFormarTriangulo(int a, int b, int c)
+    public class Triangulo
+{
+    public static bool esTriangulo(int a, int b, int c)
     {
-        // Se comprueba que los lados sean positivos
+        // Se comprueba que los lados sean positivos y mayores que cero
         if (a <= 0 || b <= 0 || c <= 0)
         {
             return false;
@@ -13,11 +17,17 @@
 
     static void Main(string[] args)
     {
-        int lado1 = 3;
-        int lado2 = 4;
-        int lado3 = 5;
+        Console.WriteLine("Ingrese el valor del lado 1: ");
+        int lado1 = Convert.ToInt32(Console.ReadLine());
 
-        bool resultado = Triangulo.PuedeFormarTriangulo(lado1, lado2, lado3);
-        Console.WriteLine("¿Se puede formar un triángulo? " + resultado);
+        Console.WriteLine("Ingrese el valor del lado 2: ");
+        int lado2 = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine("Ingrese el valor del lado 3: ");
+        int lado3 = Convert.ToInt32(Console.ReadLine());
+
+        bool resultado = esTriangulo(lado1, lado2, lado3);
+        Console.WriteLine("¿Se puede formar un triangulo? " + (resultado ? "Si" : "No"));
     }
+}
 }

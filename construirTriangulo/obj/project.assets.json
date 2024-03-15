@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\dasd-\\.nuget\\packages\\": {}
+    "C:\\Users\\luisa\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dasd-\\OneDrive\\Escritorio\\Prueba-teachy-we\\construirTriangulo\\construirTriangulo.csproj",
+      "projectUniqueName": "C:\\Users\\luisa\\Documents\\VS Projects\\Prueba-teachy-we\\construirTriangulo\\construirTriangulo.csproj",
       "projectName": "construirTriangulo",
-      "projectPath": "C:\\Users\\dasd-\\OneDrive\\Escritorio\\Prueba-teachy-we\\construirTriangulo\\construirTriangulo.csproj",
-      "packagesPath": "C:\\Users\\dasd-\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dasd-\\OneDrive\\Escritorio\\Prueba-teachy-we\\construirTriangulo\\obj\\",
+      "projectPath": "C:\\Users\\luisa\\Documents\\VS Projects\\Prueba-teachy-we\\construirTriangulo\\construirTriangulo.csproj",
+      "packagesPath": "C:\\Users\\luisa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\luisa\\Documents\\VS Projects\\Prueba-teachy-we\\construirTriangulo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\dasd-\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\luisa\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -38,6 +38,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -59,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

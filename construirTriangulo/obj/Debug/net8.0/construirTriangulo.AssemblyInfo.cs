@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("construirTriangulo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+947db271a33e7c6f5fab514ec7a5dad23dde9438")]
 [assembly: System.Reflection.AssemblyProductAttribute("construirTriangulo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("construirTriangulo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
